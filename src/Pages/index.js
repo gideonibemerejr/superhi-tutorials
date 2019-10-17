@@ -1,3 +1,4 @@
+import HomePage from './HomePage'
 import BattlesIceCream from './BattlesIceCream'
 
-export { BattlesIceCream }
+export { HomePage, BattlesIceCream }
