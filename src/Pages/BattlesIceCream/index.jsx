@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './assets/logo.svg'
 import styles from './Battles.module.css'
 
 const BattlesIceCream = () => {
@@ -6,15 +7,15 @@ const BattlesIceCream = () => {
     <>
       {/* // <!-- Header START --> */}
       <header className={styles.header}>
-        <img className={styles.img} src='./logo.svg' alt='Battles Ice Cream' />
+        <img className={styles.img} src={logo} alt='Battles Ice Cream' />
       </header>
       {/* // <!-- Header END --> */}
 
       {/* // <!-- Section One START --> */}
-      <section>
-        <div class='text'>
-          <h2>Our story</h2>
-          <p>
+      <section className={styles.section}>
+        <div className={styles.text}>
+          <h2 className={styles.h2}>Our story</h2>
+          <p className={styles.p}>
             Ut volutpat sodales urna vel maximus. Suspendisse potenti. Etiam
             placerat metus at nisi tempor faucibus suscipit nec augue. Donec
             consectetur pretium nisi scelerisque faucibus. Integer dolor nunc,
@@ -29,7 +30,7 @@ const BattlesIceCream = () => {
             ipsum, pharetra congue dolor a, iaculis pellentesque metus.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Morbi mollis nisi nec lobortis facilisis. Sed auctor tellus nunc,
             quis dictum leo suscipit nec. Donec varius libero vitae nulla
             vestibulum auctor. Nullam sollicitudin pharetra sapien, non blandit
@@ -39,7 +40,7 @@ const BattlesIceCream = () => {
             convallis velit vel rutrum.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Aenean venenatis neque ac orci aliquet mattis. Nunc ac turpis
             viverra leo gravida dignissim. Donec ac porta magna. Duis sapien
             turpis, faucibus quis finibus et, lacinia vitae turpis. Orci varius
@@ -54,7 +55,7 @@ const BattlesIceCream = () => {
             ex nec quam mattis ornare. Fusce non elementum velit.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Aenean accumsan sapien id nisi consectetur, at tempor lectus congue.
             Donec pulvinar convallis vehicula. Maecenas mattis quam tortor, non
             suscipit nisl ultricies vitae. Sed elementum tortor non odio cursus,
@@ -70,15 +71,15 @@ const BattlesIceCream = () => {
             scelerisque urna.
           </p>
         </div>
-        <div class='full-image i1'></div>
+        <div className={`${styles.full_image} ${styles.i1}`} />
       </section>
       {/* // <!-- Section One END --> */}
 
       {/* // <!-- Section Two START --> */}
-      <section>
-        <div class='text'>
-          <h2>Our locations</h2>
-          <p>
+      <section className={styles.section}>
+        <div className={styles.text}>
+          <h2 className={styles.h2}>Our locations</h2>
+          <p className={styles.p}>
             Ut volutpat sodales urna vel maximus. Suspendisse potenti. Etiam
             placerat metus at nisi tempor faucibus suscipit nec augue. Donec
             consectetur pretium nisi scelerisque faucibus. Integer dolor nunc,
@@ -93,7 +94,7 @@ const BattlesIceCream = () => {
             ipsum, pharetra congue dolor a, iaculis pellentesque metus.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Morbi mollis nisi nec lobortis facilisis. Sed auctor tellus nunc,
             quis dictum leo suscipit nec. Donec varius libero vitae nulla
             vestibulum auctor. Nullam sollicitudin pharetra sapien, non blandit
@@ -103,7 +104,7 @@ const BattlesIceCream = () => {
             convallis velit vel rutrum.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Aenean venenatis neque ac orci aliquet mattis. Nunc ac turpis
             viverra leo gravida dignissim. Donec ac porta magna. Duis sapien
             turpis, faucibus quis finibus et, lacinia vitae turpis. Orci varius
@@ -118,7 +119,7 @@ const BattlesIceCream = () => {
             ex nec quam mattis ornare. Fusce non elementum velit.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Aenean accumsan sapien id nisi consectetur, at tempor lectus congue.
             Donec pulvinar convallis vehicula. Maecenas mattis quam tortor, non
             suscipit nisl ultricies vitae. Sed elementum tortor non odio cursus,
@@ -134,15 +135,15 @@ const BattlesIceCream = () => {
             scelerisque urna.
           </p>
         </div>
-        <div class='full-image i2'></div>
+        <div className={`${styles.full_image} ${styles.i2}`} />
       </section>
       {/* // <!-- Section Two END --> */}
 
       {/* // <!-- Section Three START --> */}
-      <section>
-        <div class='text'>
-          <h2>Why we have the best ice cream</h2>
-          <p>
+      <section className={styles.section}>
+        <div className={styles.text}>
+          <h2 className={styles.h2}>Why we have the best ice cream</h2>
+          <p className={styles.p}>
             Ut volutpat sodales urna vel maximus. Suspendisse potenti. Etiam
             placerat metus at nisi tempor faucibus suscipit nec augue. Donec
             consectetur pretium nisi scelerisque faucibus. Integer dolor nunc,
@@ -157,7 +158,7 @@ const BattlesIceCream = () => {
             ipsum, pharetra congue dolor a, iaculis pellentesque metus.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Morbi mollis nisi nec lobortis facilisis. Sed auctor tellus nunc,
             quis dictum leo suscipit nec. Donec varius libero vitae nulla
             vestibulum auctor. Nullam sollicitudin pharetra sapien, non blandit
@@ -167,7 +168,7 @@ const BattlesIceCream = () => {
             convallis velit vel rutrum.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Aenean venenatis neque ac orci aliquet mattis. Nunc ac turpis
             viverra leo gravida dignissim. Donec ac porta magna. Duis sapien
             turpis, faucibus quis finibus et, lacinia vitae turpis. Orci varius
@@ -182,7 +183,7 @@ const BattlesIceCream = () => {
             ex nec quam mattis ornare. Fusce non elementum velit.
           </p>
 
-          <p>
+          <p className={styles.p}>
             Aenean accumsan sapien id nisi consectetur, at tempor lectus congue.
             Donec pulvinar convallis vehicula. Maecenas mattis quam tortor, non
             suscipit nisl ultricies vitae. Sed elementum tortor non odio cursus,
@@ -198,7 +199,7 @@ const BattlesIceCream = () => {
             scelerisque urna.
           </p>
         </div>
-        <div class='full-image i3'></div>
+        <div className={`${styles.full_image} ${styles.i3}`} />
       </section>
       {/*  <!-- Section Three END --> */}
     </>

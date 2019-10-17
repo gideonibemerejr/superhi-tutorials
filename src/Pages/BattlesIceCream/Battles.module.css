@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-  background-image: url('cover.jpg');
+  background-image: url(./assets/cover.jpg);
   background-size: cover;
   background-position: center;
 
@@ -56,15 +56,15 @@ body {
   flex-direction: row-reverse;
 }
 
-.section .div {
+.section div {
   width: 50%;
 }
 
-.section .div.text {
+.section div.text {
   padding: 60px;
 }
 
-.section .div.full-image {
+.section div.full_image {
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -74,16 +74,16 @@ body {
   top: 0;
 }
 
-.section .div.i1 {
-  background-image: url(./photo-1.jpg);
+.section div.i1 {
+  background-image: url(./assets/photo-1.jpg);
 }
 
-.section .div.i2 {
-  background-image: url(./photo-2.jpg);
+.section div.i2 {
+  background-image: url(./assets/photo-2.jpg);
 }
 
-.section .div.i3 {
-  background-image: url(./photo-3.jpg);
+.section div.i3 {
+  background-image: url(./assets/photo-3.jpg);
 }
 
 /*=== == == == == == == == == ==
@@ -107,15 +107,15 @@ body {
     display: block;
   }
 
-  .section .div {
+  .section div {
     width: 100%;
   }
 
-  .section .div.text {
+  .section div.text {
     padding: 30px;
   }
 
-  .section .div.full-image {
+  .section div.full_image {
     height: 100vw;
   }
 }
