@@ -28,25 +28,6 @@ body {
   margin: 1.6em 0;
 }
 
-.header {
-  background-image: url(./assets/cover.jpg);
-  background-size: cover;
-  background-position: center;
-
-  height: 100vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header .img {
-  width: 80%;
-  height: 80%;
-  /* makes the img look more natural */
-  object-fit: contain;
-}
-
 .section {
   display: flex;
   flex-direction: row;
@@ -98,11 +79,6 @@ body {
   .h2 {
     font-size: 2rem;
   }
-
-  .header {
-    height: 75vw;
-  }
-
   .section {
     display: block;
   }

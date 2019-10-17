@@ -1,16 +1,11 @@
 import React from 'react'
-import logo from './assets/logo.svg'
+import { Header } from './components'
 import styles from './Battles.module.css'
 
 const BattlesIceCream = () => {
   return (
     <>
-      {/* // <!-- Header START --> */}
-      <header className={styles.header}>
-        <img className={styles.img} src={logo} alt='Battles Ice Cream' />
-      </header>
-      {/* // <!-- Header END --> */}
-
+      <Header />
       {/* // <!-- Section One START --> */}
       <section className={styles.section}>
         <div className={styles.text}>

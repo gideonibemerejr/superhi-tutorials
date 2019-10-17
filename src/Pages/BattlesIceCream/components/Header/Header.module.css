@@ -1,0 +1,24 @@
+.header {
+  background-image: url(../../assets/cover.jpg);
+  background-size: cover;
+  background-position: center;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .img {
+  width: 80%;
+  height: 80%;
+  /* makes the img look more natural */
+  object-fit: contain;
+}
+
+@media (max-width: 800px) {
+  .header {
+    height: 75vw;
+  }
+}
