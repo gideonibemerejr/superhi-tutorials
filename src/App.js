@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { HomePage, BattlesIceCream, ColourMagazine } from './Pages'
+import { HomePage, BattlesIceCream, ColourMagazine, Overlaps } from './Pages'
 
 function App() {
   return (
@@ -14,6 +14,9 @@ function App() {
 
         {/* Route to Colour Magazine */}
         <Route path='/colour' component={ColourMagazine} />
+
+        {/*  Route to Overlaps With Benefits*/}
+        <Route path='/overlaps' component={Overlaps} />
       </Switch>
     </Router>
   )
