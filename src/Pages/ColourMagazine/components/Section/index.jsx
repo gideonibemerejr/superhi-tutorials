@@ -21,11 +21,15 @@ class Section extends Component {
 
     const imageNumber = Math.floor(percentage * this.images.length)
 
+    console.log(imageNumber, this.images[imageNumber])
+
     this.images.forEach(image => {
       image.style.zIndex = 0
     })
 
-    this.images[imageNumber].style.zIndex = 1
+    imageNumber === 6
+      ? (this.images[0].style.zIndex = 1)
+      : (this.images[imageNumber].style.zIndex = 1)
   }
 
   images = []
