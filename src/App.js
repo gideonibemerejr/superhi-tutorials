@@ -6,9 +6,14 @@ function App() {
   return (
     <Router>
       <Switch>
+        {/*  Route to Home Page */}
         <Route exact path='/' component={HomePage} />
+
+        {/*  Route to Battles Ice Cream */}
         <Route path='/battles' component={BattlesIceCream} />
-        <Route path='/colours' component={ColourMagazine} />
+
+        {/* Route to Colour Magazine */}
+        <Route path='/colour' component={ColourMagazine} />
       </Switch>
     </Router>
   )
