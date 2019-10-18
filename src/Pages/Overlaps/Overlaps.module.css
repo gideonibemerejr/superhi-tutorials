@@ -10,6 +10,9 @@
 header,
 section {
   padding: 30px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .about {

@@ -1,15 +1,23 @@
 .photo {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .photo1 {
-  border: 2px solid red;
+  background-color: #d0bfbe;
 }
 .photo2 {
-  border: 2px solid orange;
+  background-color: #c5bbbf;
 }
 .photo3 {
-  border: 2px solid green;
+  background-color: #bdc9c7;
 }
 .photo4 {
-  border: 2px solid blue;
+  background-color: #a0cfbe;
+}
+
+.photo img {
+  max-width: 1000px;
 }
