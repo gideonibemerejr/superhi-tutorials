@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { HomePage, BattlesIceCream } from './Pages'
+import { HomePage, BattlesIceCream, ColourMagazine } from './Pages'
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/battles' component={BattlesIceCream} />
+        <Route path='/colours' component={ColourMagazine} />
       </Switch>
     </Router>
   )
