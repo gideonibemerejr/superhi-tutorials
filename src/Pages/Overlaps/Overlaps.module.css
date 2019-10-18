@@ -1,0 +1,21 @@
+.body {
+  font-family: Helvetica;
+  font-size: 32px;
+  line-height: 1.25;
+
+  background-color: #fff;
+  color: #000;
+}
+
+header,
+section {
+  padding: 30px;
+}
+
+.about {
+  background-color: #e4d3d2;
+}
+
+.about p {
+  max-width: 30em;
+}
