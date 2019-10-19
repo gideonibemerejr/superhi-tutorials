@@ -21,3 +21,10 @@
 .photo img {
   max-width: 1000px;
 }
+
+.section {
+  padding: 30px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}

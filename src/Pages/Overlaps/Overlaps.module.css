@@ -7,16 +7,12 @@
   color: #000;
 }
 
-header,
-section {
+.about {
+  background-color: #e4d3d2;
   padding: 30px;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-}
-
-.about {
-  background-color: #e4d3d2;
 }
 
 .about p {

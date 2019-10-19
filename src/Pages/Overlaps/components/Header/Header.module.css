@@ -1,0 +1,6 @@
+.header {
+  padding: 30px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
