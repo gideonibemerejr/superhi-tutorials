@@ -1,11 +1,15 @@
-import React from 'react'
-
+import React from 'react';
+import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div>
       <h2>HomePage</h2>
-    </div>
-  )
-}
 
-export default HomePage
+      <Link to='/battles'>Battles</Link>
+      <Link to='/colours'>Colours</Link>
+      <Link to='/overlaps'>Overlaps</Link>
+    </div>
+  );
+};
+
+export default HomePage;
